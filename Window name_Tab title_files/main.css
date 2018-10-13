@@ -4,7 +4,6 @@ main{
 
 body {
   margin: 0;
-  background: #F1EDEE;
 }
 
 /* .logo{
@@ -20,8 +19,6 @@ body {
   float: left;
   text-decoration: none;
   color: white;
-  z-index: 50;
-  font-size: 1.5vw;
 }
 
 
@@ -37,7 +34,6 @@ body {
   text-decoration: none;
   float: right;
   top: 0px;
-  font-size: 0.95vw;
 }
 
 .button:hover{
@@ -52,7 +48,6 @@ body {
     /* opacity: 0.7; */
     width: 100%;
     top: 0;
-    z-index: 50;
 }
 
 /* #nav-replace {
@@ -78,7 +73,6 @@ body {
   text-align: center;
   padding: 10px;
   margin-top: 651.41px;
-  /* color: white; */
 
 }
 
@@ -102,38 +96,22 @@ body {
   /* color: #333; */
   /* opacity: 70%; */
   /* background-position: bottom; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  /* align-items: left; */
   margin-top: 74px;
   color: white;
 }
 
 #slogan-head {
-  /* position: absolute;
+  /* position: absolute; */
   right: 50%;
-  top: 50%; */
-  transform: translate(10%, -300%);
-  /* text-align: left; */
-  font-size: 4vw;
-  z-index: 40;
-  /* text-align: center; */
+  top: 50%;
+  transform: translate(50%, -300%);
+  font-size: 60px;
 }
 
 #slogan {
-  /* position: absolute;
+  /* position: absolute; */
   right: 50%;
-  top: 50%; */
-  transform: translate(10%, -600%);
-  /* text-align: left; */
-  font-size: 2vw;
-  z-index: 40;
-}
-
-#sign-up-box {
-  display: block;
-  float: right;
-  transform: translate(-40%, -600%);
-  z-index: 60;
+  top: 50%;
+  transform: translate(50%, -200%);
+  font-size: 30px;
 }
